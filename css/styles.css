@@ -1,0 +1,95 @@
+/* Global Settings */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #1a5f7a;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1a5f7a;
+}
+
+/* Headings */
+
+.big-heading {
+  padding: 30px;
+  background-color: #fff;
+}
+
+/* Hero Image */
+
+.title-image {
+  width: 45%;
+  position: absolute;
+  top: 5px;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 5% 15% 12%;
+  text-align: left;
+  line-height: 2;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #fff;
+  border: 10px solid #f3deba;
+  background: repeating-linear-gradient(
+    -45deg,
+    #f3deba,
+    #f3deba 10px,
+    #fff 10px,
+    #fff 45px
+  );
+}
+
+.signup-box {
+  padding: 3%;
+}
+
+/* Footer Section */
+
+.footer-brand {
+  color: #fff;
+  font-size: 0.8125rem;
+  text-decoration: none;
+}
+
+/* Media */
+
+@media (max-width: 1028px) {
+  .hero {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    width: 100%;
+  }
+}
