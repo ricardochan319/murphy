@@ -65,6 +65,12 @@ p {
   );
 }
 
+/* Other */
+
+.li-icon {
+  color: #1a5f7a;
+}
+
 .signup-box {
   padding: 3%;
 }
